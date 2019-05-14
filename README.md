@@ -1,0 +1,1 @@
+# OpenCV-2.4.13-Compiler-HowTo
