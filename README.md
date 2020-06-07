@@ -13,6 +13,15 @@ To use the OpenCV for the naoqi SDK:
 3) cp -r include/ lib/ ../path/to/your/naoqi/sdk
 This will replace the opencv files in your sdk to solve some problems with versions.
 
+APPLICATION:
+To test the naoqi SDK + OpenCv 2.4.13:
+	cd BallDetector (Image or Video exemples)
+	qibuild init (only need for the 1st time running on this folder)
+	qibuild configure -c rinobot-local
+	qibuild make -c rinobot-local
+	./build-rinobot-local/sdk/bin/ballDetector ../path/to/your/data
+	
+
 
 
 
