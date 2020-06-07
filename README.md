@@ -15,11 +15,11 @@ This will replace the opencv files in your sdk to solve some problems with versi
 
 APPLICATION:
 To test the naoqi SDK + OpenCv 2.4.13:
-	1) cd BallDetector (Image or Video exemples)
-	2) qibuild init (only need for the 1st time running on this folder)
-	3) qibuild configure -c rinobot-local
-	4) qibuild make -c rinobot-local
-	5) ./build-rinobot-local/sdk/bin/ballDetector ../path/to/your/data
+1) cd BallDetector (Image or Video exemples)
+2) qibuild init (only need for the 1st time running on this folder)
+3) qibuild configure -c rinobot-local
+4) qibuild make -c rinobot-local
+5) ./build-rinobot-local/sdk/bin/ballDetector ../path/to/your/data
 	
 
 
