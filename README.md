@@ -8,6 +8,7 @@
 (If you get problems with the compilation like an error with C++ version, add "set (CMAKE_CXX_STANDARD 11)" at the top of opencv-2.4.13/CMakeLists.txt)
 
 OPTIONAL:
+
 To install the local toolchain from naoqi:
 1) Clone this repository: https://github.com/thaleshsp2/Mari
 2) Download C++ SDK 2.1.4 Linux 64 from https://community.aldebaran.com/en/resources/software
