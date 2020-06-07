@@ -14,7 +14,7 @@ To use the OpenCV for the naoqi SDK:
 This will replace the opencv files in your sdk to solve some problems with versions.
 
 APPLICATION:
-To test the naoqi SDK + OpenCv 2.4.13 w/ SPL BallDetector example using cascade method:
+To test the naoqi SDK + OpenCv 2.4.13 w/ SPQR SPL Team BallDetector example using cascade method:
 1) cd BallDetector (Image or Video exemples)
 2) qibuild init (only need for the 1st time running on this folder)
 3) qibuild configure -c rinobot-local
