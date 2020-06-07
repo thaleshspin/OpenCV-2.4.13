@@ -8,6 +8,13 @@
 (If you get problems with the compilation like an error with C++ version, add "set (CMAKE_CXX_STANDARD 11)" at the top of opencv-2.4.13/CMakeLists.txt)
 
 OPTIONAL:
+To install the local toolchain from naoqi:
+1) Clone this repository: https://github.com/thaleshsp2/Mari
+2) Download C++ SDK 2.1.4 Linux 64 from https://community.aldebaran.com/en/resources/software
+3) Place naoqi-sdk-2.1.4.13-linux64 at sdk folder
+4) chmod +x setup
+5) ./setup --local (rinobot-local toolchain will be setted)
+
 To use the OpenCV for the naoqi SDK:
 1) ./packageOpencv.sh
 2) cd cv
