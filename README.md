@@ -2,7 +2,7 @@
 This is a How to for OpenCV 2.4.13 installer applied to Rinobot users
 
 1) Remove all previously installed opencv versions from your system (sudo apt-get autoremove libopencv-dev python-opencv)
-2) Clone this repository (git clone https://github.com/thaleshsp2/OpenCV-2.4.13)
+2) Clone this repository (git clone https://github.com/thaleshsp2/OpenCV-2.4.13.git)
 3) Downgrade your GCC version to 4.8 using all the comands in the GCC-4.8.txt (ignore errors)
 	- You need to choose 4.8 as default
 4) python compileOpencv_Ubuntu1X.py
