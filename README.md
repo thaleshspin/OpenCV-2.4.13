@@ -7,6 +7,7 @@ This is a How to for OpenCV 2.4.13 installer applied to Rinobot users
 	- You need to choose 4.8 as default
 4) python compileOpencv_Ubuntu1X.py
 (If you get problems with the compilation like an error with C++ version, add "set (CMAKE_CXX_STANDARD 11)" at the top of opencv-2.4.13/CMakeLists.txt)
+5) Take a coffe at Critt
 
 HOW TO:
 Compile a OpenCV project:
