@@ -1,7 +1,8 @@
-# OpenCV-2.4.13-Compiler-HowTo
+# OpenCV-2.4.13
+This is a How to for OpenCV 2.4.13 installer applied to Rinobot users
 
 1) Remove all previously installed opencv versions from your system (sudo apt-get autoremove libopencv-dev python-opencv)
-2) Clone this repository (git clone https://github.com/thaleshsp2/OpenCV-2.4.13-Compiler-HowTo)
+2) Clone this repository (git clone https://github.com/thaleshsp2/OpenCV-2.4.13)
 3) Downgrade your GCC version to 4.8 using all the comands in the GCC-4.8.txt (ignore errors)
 	- You need to choose 4.8 as default
 4) python compileOpencv_Ubuntu1X.py
@@ -19,19 +20,14 @@ Compile a OpenCV project:
 OPTIONAL:
 
 To install the local toolchain from naoqi:
-1) cd samples/BallDetector/naoqi
+1) cd samples/naoqi/sdk
 2) chmod +x installer.sh
+3) Place the naoqi-sdk-2.1.4.13-linux64.tar.gz file at this folder
 3) ./installer.sh
-
-To use the OpenCV for the naoqi SDK:
-1) ./packageOpencv.sh
-2) cd cv
-3) cp -r include/ lib/ ../samples/BallDetector/naoqi/naoqi-sdk-2.1.4.13-linux64/
-This will replace the opencv files in your sdk to solve some problems with versions.
 
 APPLICATION:
 To test the naoqi SDK + OpenCv 2.4.13 w/ SPQR SPL Team BallDetector example using cascade method:
-1) cd BallDetector (Image or Video exemples)
+1) cd samples/naoqi/BallDetector (Image or Video exemples)
 2) qibuild init (only needed for the 1st time running on this folder)
 3) qibuild configure -c rinobot-local
 4) qibuild make -c rinobot-local
